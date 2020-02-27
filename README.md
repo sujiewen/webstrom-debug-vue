@@ -25,7 +25,18 @@ WebStorm还支持调试异步代码，Web Workers和 Service Workers
 使用npm install安装好所有依赖的组件
 调试
 
-编辑调试配置，新建JavaScript调试配置，名字起个vuedebug，并设置要访问的url，以及Remote url配置，如下图所示:
+编辑调试配置，新建JavaScript调试配置，名字起个jsdebug，并设置要访问的url，以及Remote url配置，如下图所示:
        
 ![图片](https://github.com/sujiewen/webstrom-debug-vue/blob/master/%E6%88%AA%E5%B1%8F2020-02-27%E4%B8%8B%E5%8D%884.51.23.png)
+
+在src的Remote url处填写: webpack:///src
+
+保存好调试配置
+
+先启动配置的正常server（run），可以使用WebStorm npm scripts中单击工具栏start图标启动server， 也可以在命令行中执行命令npm run start启动server
+再启动配置的调试server（jsdebug），单击工具栏debug乌龟图标启动，调试DebugTest，这时候会打开一个新的chrome，如下图所示 ，将要调试页面地址复制到新打开的浏览器中开始调试
+
+
+
+
 
