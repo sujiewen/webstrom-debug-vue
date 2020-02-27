@@ -37,6 +37,10 @@ WebStorm还支持调试异步代码，Web Workers和 Service Workers
 再启动配置的调试server（jsdebug），单击工具栏debug乌龟图标启动，调试DebugTest，这时候会打开一个新的chrome，如下图所示 ，将要调试页面地址复制到新打开的浏览器中开始调试
 
 
+![图片](https://github.com/sujiewen/webstrom-debug-vue/blob/master/%E6%88%AA%E5%B1%8F2020-02-27%E4%B8%8B%E5%8D%885.04.29.png)
+
+当我们在chrome中点击测试按钮，WebStorm就会响应断点状态，可以直接在chrome浏览器中一步步调试，也可以去webstorm左下角的调试窗口中点击一步步调试，浏览器调试和工具窗口调试都会相互同步的。
+
 
 
 
