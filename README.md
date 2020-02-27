@@ -27,5 +27,5 @@ WebStorm还支持调试异步代码，Web Workers和 Service Workers
 
 编辑调试配置，新建JavaScript调试配置，名字起个vuedebug，并设置要访问的url，以及Remote url配置，如下图所示:
        
-       
-https://github.com/sujiewen/webstrom-debug-vue/blob/master/%E6%88%AA%E5%B1%8F2020-02-27%E4%B8%8B%E5%8D%884.51.23.png
+![图片](https://github.com/sujiewen/webstrom-debug-vue/blob/master/%E6%88%AA%E5%B1%8F2020-02-27%E4%B8%8B%E5%8D%884.51.23.png)
+
