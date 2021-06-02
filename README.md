@@ -42,5 +42,8 @@ WebStorm还支持调试异步代码，Web Workers和 Service Workers
 当我们在chrome中点击测试按钮，WebStorm就会响应断点状态，可以直接在chrome浏览器中一步步调试，也可以去webstorm左下角的调试窗口中点击一步步调试，浏览器调试和工具窗口调试都会相互同步的。
 
 
+webstrom Debug electron renderer process
+https://github.com/nklayman/vue-cli-plugin-electron-builder/issues/1053
+
 
 
